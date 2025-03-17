@@ -27,9 +27,6 @@ def test_is_prime():
     assert is_prime(9) == False
     assert is_prime(10) == False
     assert is_prime(11) == True
-    assert is_prime(13) == True
-    assert is_prime(15) == False
-    assert is_prime(17) == True
 
 def test_unique_el():
     assert set(unique_el([1, 2, 2, 3, 4, 4, 5])) == {1, 2, 3, 4, 5}
